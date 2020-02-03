@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fsm:FSM xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:fsm="http://www.example.org/fsm"
+    xsi:schemaLocation="http://www.example.org/fsm fsm.ecore">
+  <state xsi:type="fsm:InitialState"
+      name="S0"/>
+  <state xsi:type="fsm:FinalState"
+      name="SF"/>
+  <state name="S1"/>
+  <state name="S2"/>
+  <state name="S3"/>
+  <state name="S4"/>
+  <state name="S5"/>
+  <state name="S6"/>
+  <state name="S7"/>
+  <state name="S8"/>
+  <state name="S9"/>
+  <transition
+      name="T0"
+      source="//@state.0"
+      target="//@state.2"/>
+  <transition
+      name="T1"
+      source="//@state.2"
+      target="//@state.3"/>
+  <transition
+      name="T2"
+      source="//@state.3"
+      target="//@state.4"/>
+  <transition
+      name="T3"
+      source="//@state.4"
+      target="//@state.5"/>
+  <transition
+      name="T4"
+      source="//@state.5"
+      target="//@state.6"/>
+  <transition
+      name="T5"
+      source="//@state.6"
+      target="//@state.7"/>
+  <transition
+      name="T6"
+      source="//@state.7"
+      target="//@state.8"/>
+  <transition
+      name="T7"
+      source="//@state.8"
+      target="//@state.9"/>
+  <transition
+      name="T8"
+      source="//@state.9"
+      target="//@state.10"/>
+  <transition
+      name="T9"
+      source="//@state.10"
+      target="//@state.1"/>
+</fsm:FSM>
